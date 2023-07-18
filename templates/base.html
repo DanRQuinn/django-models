@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dans Snacks</title>
+  </head>
+  <nav>
+    <ul>
+      <li><a href="{% url 'snack_list' %}">Snacks</a></li>
+    </ul>
+  </nav>
+  <body>
+    {% block content %}
+    <h1>Missing Snacks</h1>
+    {% endblock %}
+  </body>
+</html>
